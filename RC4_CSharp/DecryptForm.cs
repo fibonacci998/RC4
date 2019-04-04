@@ -46,6 +46,8 @@ namespace RC4_CSharp
         private void btnSave_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFile = new SaveFileDialog();
+            saveFile.DefaultExt = "txt";
+            saveFile.AddExtension = true;
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 using (Stream s = File.Open(saveFile.FileName, FileMode.CreateNew))
@@ -73,7 +75,7 @@ namespace RC4_CSharp
             for (int i = 0; i < s.Length; i++)
             {
                 s[i] = (byte)i;
-                t[i] = (byte)k[i % (k.Length / 2)];
+                t[i] = (byte)k[i % (k.Length)];
             }
 
             //KSA

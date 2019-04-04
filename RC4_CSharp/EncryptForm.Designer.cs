@@ -67,7 +67,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(548, 129);
+            this.label4.Location = new System.Drawing.Point(567, 129);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(92, 17);
             this.label4.TabIndex = 17;
@@ -86,16 +86,17 @@
             // 
             // btnReload
             // 
-            this.btnReload.Location = new System.Drawing.Point(848, 44);
+            this.btnReload.Location = new System.Drawing.Point(1001, 44);
             this.btnReload.Name = "btnReload";
             this.btnReload.Size = new System.Drawing.Size(75, 23);
             this.btnReload.TabIndex = 15;
             this.btnReload.Text = "Tải lại";
             this.btnReload.UseVisualStyleBackColor = true;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(742, 44);
+            this.btnOpen.Location = new System.Drawing.Point(889, 43);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(75, 23);
             this.btnOpen.TabIndex = 14;
@@ -107,14 +108,14 @@
             // 
             this.txtKKey.Location = new System.Drawing.Point(202, 71);
             this.txtKKey.Name = "txtKKey";
-            this.txtKKey.Size = new System.Drawing.Size(513, 22);
+            this.txtKKey.Size = new System.Drawing.Size(874, 22);
             this.txtKKey.TabIndex = 13;
             // 
             // txtFilePathOpen
             // 
             this.txtFilePathOpen.Location = new System.Drawing.Point(202, 44);
             this.txtFilePathOpen.Name = "txtFilePathOpen";
-            this.txtFilePathOpen.Size = new System.Drawing.Size(513, 22);
+            this.txtFilePathOpen.Size = new System.Drawing.Size(666, 22);
             this.txtFilePathOpen.TabIndex = 12;
             // 
             // label2
@@ -137,44 +138,44 @@
             // 
             // txtTKey
             // 
-            this.txtTKey.Enabled = false;
             this.txtTKey.Location = new System.Drawing.Point(90, 158);
             this.txtTKey.Name = "txtTKey";
-            this.txtTKey.Size = new System.Drawing.Size(180, 184);
+            this.txtTKey.ReadOnly = true;
+            this.txtTKey.Size = new System.Drawing.Size(208, 184);
             this.txtTKey.TabIndex = 19;
             this.txtTKey.Text = "";
             // 
             // txtSKey
             // 
-            this.txtSKey.Enabled = false;
-            this.txtSKey.Location = new System.Drawing.Point(321, 158);
+            this.txtSKey.Location = new System.Drawing.Point(335, 158);
             this.txtSKey.Name = "txtSKey";
-            this.txtSKey.Size = new System.Drawing.Size(180, 184);
+            this.txtSKey.ReadOnly = true;
+            this.txtSKey.Size = new System.Drawing.Size(213, 184);
             this.txtSKey.TabIndex = 20;
             this.txtSKey.Text = "";
             // 
             // txtKeySchedule
             // 
-            this.txtKeySchedule.Enabled = false;
-            this.txtKeySchedule.Location = new System.Drawing.Point(551, 158);
+            this.txtKeySchedule.Location = new System.Drawing.Point(585, 158);
             this.txtKeySchedule.Name = "txtKeySchedule";
-            this.txtKeySchedule.Size = new System.Drawing.Size(193, 184);
+            this.txtKeySchedule.ReadOnly = true;
+            this.txtKeySchedule.Size = new System.Drawing.Size(229, 184);
             this.txtKeySchedule.TabIndex = 21;
             this.txtKeySchedule.Text = "";
             // 
             // txtKeyStream
             // 
-            this.txtKeyStream.Location = new System.Drawing.Point(791, 158);
+            this.txtKeyStream.Location = new System.Drawing.Point(858, 158);
             this.txtKeyStream.Name = "txtKeyStream";
             this.txtKeyStream.ReadOnly = true;
-            this.txtKeyStream.Size = new System.Drawing.Size(187, 184);
+            this.txtKeyStream.Size = new System.Drawing.Size(218, 184);
             this.txtKeyStream.TabIndex = 22;
             this.txtKeyStream.Text = "";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(791, 128);
+            this.label6.Location = new System.Drawing.Point(855, 129);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 17);
             this.label6.TabIndex = 23;
@@ -193,7 +194,8 @@
             // 
             this.txtKeyStreamRead.Location = new System.Drawing.Point(202, 377);
             this.txtKeyStreamRead.Name = "txtKeyStreamRead";
-            this.txtKeyStreamRead.Size = new System.Drawing.Size(666, 22);
+            this.txtKeyStreamRead.ReadOnly = true;
+            this.txtKeyStreamRead.Size = new System.Drawing.Size(874, 22);
             this.txtKeyStreamRead.TabIndex = 25;
             // 
             // label8
@@ -234,14 +236,15 @@
             // 
             this.txtInput.Location = new System.Drawing.Point(202, 419);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(666, 22);
+            this.txtInput.Size = new System.Drawing.Size(874, 22);
             this.txtInput.TabIndex = 29;
             // 
             // txtOutput
             // 
             this.txtOutput.Location = new System.Drawing.Point(202, 458);
             this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(666, 22);
+            this.txtOutput.ReadOnly = true;
+            this.txtOutput.Size = new System.Drawing.Size(874, 22);
             this.txtOutput.TabIndex = 30;
             // 
             // btnSaveFile

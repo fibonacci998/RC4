@@ -58,7 +58,7 @@ namespace RC4_CSharp
             for (int i = 0; i < s.Length; i++)
             {
                 s[i] = (byte)i;
-                t[i] = (byte)k[i % (k.Length / 2)];
+                t[i] = (byte)k[i % (k.Length)];
             }
 
             txtSKey.Text = ByteArrayToString(s);
@@ -106,6 +106,7 @@ namespace RC4_CSharp
             SaveFileDialog saveFile = new SaveFileDialog();
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
+                txtFilePathSave.Text = saveFile.FileName;
                 using (Stream s = File.Open(saveFile.FileName, FileMode.CreateNew))
                 using (StreamWriter sw = new StreamWriter(s))
                 {
@@ -113,6 +114,25 @@ namespace RC4_CSharp
                 }
 
             }
+        }
+
+        private void btnReload_Click(object sender, EventArgs e)
+        {
+            var lines = File.ReadLines(txtFilePathOpen.Text);
+            String line1 = null, line2 = null;
+            foreach (var line in lines)
+            {
+                if (line1 == null)
+                {
+                    line1 = line;
+                }
+                else
+                {
+                    line2 = line;
+                }
+            }
+            txtInput.Text = line1;
+            txtKKey.Text = line2;
         }
     }
 }

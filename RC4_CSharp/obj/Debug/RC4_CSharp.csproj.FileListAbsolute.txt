@@ -10,3 +10,15 @@ D:\GDriver\Datacode\C#1\Rc4_c#\RC4_CSharp\RC4_CSharp\obj\Debug\RC4_CSharp.exe
 D:\GDriver\Datacode\C#1\Rc4_c#\RC4_CSharp\RC4_CSharp\obj\Debug\RC4_CSharp.pdb
 D:\GDriver\Datacode\C#1\Rc4_c#\RC4_CSharp\RC4_CSharp\obj\Debug\RC4_CSharp.DecryptForm.resources
 D:\GDriver\Datacode\C#1\Rc4_c#\RC4_CSharp\RC4_CSharp\obj\Debug\RC4_CSharp.EncryptForm.resources
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\bin\Debug\RC4_CSharp.exe.config
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\bin\Debug\RC4_CSharp.exe
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\bin\Debug\RC4_CSharp.pdb
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.csprojAssemblyReference.cache
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.DecryptForm.resources
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.EncryptForm.resources
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.Form1.resources
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.Properties.Resources.resources
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.csproj.GenerateResource.cache
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.csproj.CoreCompileInputs.cache
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.exe
+D:\GDriver\Datacode\C#1\RC4\RC4\RC4_CSharp\obj\Debug\RC4_CSharp.pdb

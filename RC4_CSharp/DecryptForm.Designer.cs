@@ -147,9 +147,9 @@
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(808, 38);
+            this.btnOpen.Location = new System.Drawing.Point(808, 34);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
+            this.btnOpen.Size = new System.Drawing.Size(75, 34);
             this.btnOpen.TabIndex = 12;
             this.btnOpen.Text = "Mở file";
             this.btnOpen.UseVisualStyleBackColor = true;
@@ -157,9 +157,9 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(808, 274);
+            this.btnSave.Location = new System.Drawing.Point(808, 270);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(75, 32);
             this.btnSave.TabIndex = 13;
             this.btnSave.Text = "Lưu file";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -167,9 +167,9 @@
             // 
             // btnDecrypt
             // 
-            this.btnDecrypt.Location = new System.Drawing.Point(808, 186);
+            this.btnDecrypt.Location = new System.Drawing.Point(808, 182);
             this.btnDecrypt.Name = "btnDecrypt";
-            this.btnDecrypt.Size = new System.Drawing.Size(75, 23);
+            this.btnDecrypt.Size = new System.Drawing.Size(75, 30);
             this.btnDecrypt.TabIndex = 14;
             this.btnDecrypt.Text = "Decrypt";
             this.btnDecrypt.UseVisualStyleBackColor = true;
