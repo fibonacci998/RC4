@@ -104,6 +104,8 @@ namespace RC4_CSharp
         private void button1_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFile = new SaveFileDialog();
+            saveFile.DefaultExt = "txt";
+            saveFile.AddExtension = true;
             if (saveFile.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 txtFilePathSave.Text = saveFile.FileName;

@@ -28,28 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCreateFile = new System.Windows.Forms.Button();
             this.btnEncrypt = new System.Windows.Forms.Button();
             this.btnDecrypt = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnCreateFile
-            // 
-            this.btnCreateFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnCreateFile.ForeColor = System.Drawing.Color.Red;
-            this.btnCreateFile.Location = new System.Drawing.Point(29, 69);
-            this.btnCreateFile.Name = "btnCreateFile";
-            this.btnCreateFile.Size = new System.Drawing.Size(208, 43);
-            this.btnCreateFile.TabIndex = 0;
-            this.btnCreateFile.Text = "Tạo file";
-            this.btnCreateFile.UseVisualStyleBackColor = true;
-            // 
             // btnEncrypt
             // 
             this.btnEncrypt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnEncrypt.ForeColor = System.Drawing.Color.Red;
-            this.btnEncrypt.Location = new System.Drawing.Point(29, 133);
+            this.btnEncrypt.Location = new System.Drawing.Point(29, 85);
             this.btnEncrypt.Name = "btnEncrypt";
             this.btnEncrypt.Size = new System.Drawing.Size(208, 43);
             this.btnEncrypt.TabIndex = 1;
@@ -61,7 +49,7 @@
             // 
             this.btnDecrypt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnDecrypt.ForeColor = System.Drawing.Color.Red;
-            this.btnDecrypt.Location = new System.Drawing.Point(29, 198);
+            this.btnDecrypt.Location = new System.Drawing.Point(29, 160);
             this.btnDecrypt.Name = "btnDecrypt";
             this.btnDecrypt.Size = new System.Drawing.Size(208, 43);
             this.btnDecrypt.TabIndex = 2;
@@ -84,11 +72,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(268, 266);
+            this.ClientSize = new System.Drawing.Size(268, 237);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDecrypt);
             this.Controls.Add(this.btnEncrypt);
-            this.Controls.Add(this.btnCreateFile);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -97,8 +84,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCreateFile;
         private System.Windows.Forms.Button btnEncrypt;
         private System.Windows.Forms.Button btnDecrypt;
         private System.Windows.Forms.Label label1;
